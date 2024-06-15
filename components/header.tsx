@@ -15,7 +15,7 @@ export default function Header() {
       <motion.div className="fixed top-0 h-[4.5rem] w-full rounded-none border border-white border-opacity-40 bg-white bg-opacity-80 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem] sm:h-[3.25rem] custom-shadow"
       >
 
-        <nav className="fixed flex items-center justify-center w-full h-12 py-2">
+        <nav className="fixed flex items-center justify-center w-full h-12 py-2 pt-6 sm:pt-2">
           <ul className="flex flex-wrap items-center justify-center gap-y-1 text-[0.9rem] font-medium text-gray-500 sm:w-[initial] sm:flex-nowrap sm:gap-5">
             {links.map((link) => (
               <motion.li

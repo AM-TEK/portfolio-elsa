@@ -1,6 +1,6 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { FaRegBuilding } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
@@ -15,10 +15,10 @@ export const links = [
     name: "About",
     hash: "#about",
   },
-  {
-    name: "Projects",
-    hash: "#projects",
-  },
+  // {
+  //   name: "Projects",
+  //   hash: "#projects",
+  // },
   {
     name: "Skills",
     hash: "#skills",
@@ -55,7 +55,7 @@ export const experiencesData = [
     location: "Houston, TX",
     description:
       "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(FaRegBuilding),
     date: "2021 - present",
   },
 ] as const;

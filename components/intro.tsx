@@ -17,7 +17,8 @@ export default function Intro() {
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
-    <section className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]">
+    <section className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]" ref={ref}
+    id="home">
       <div className='flex items-center justify-center'>
         <div className=''>
           <Image 
@@ -32,13 +33,13 @@ export default function Intro() {
         </div>
       </div>
 
-      <motion.h3
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+      <motion.h1
+        className="mb-10 mt-4 px-4 text-lg font-medium !leading-[1.5] sm:text-2xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
         As Chief Officer, I'm dedicated to leading my team with vision and integrity. My mission is to drive innovation and deliver exceptional solutions that empower my clients. Welcome to my journey!
-      </motion.h3>
+      </motion.h1>
 
       <motion.div
         className="flex flex-col items-center justify-center gap-2 px-4 text-lg font-medium sm:flex-row"
