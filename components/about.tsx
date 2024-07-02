@@ -17,15 +17,32 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <SectionHeading>About me</SectionHeading>
+      <SectionHeading>Expertise</SectionHeading>
       <p className="mb-3">
-      As a seasoned Chief Officer with a comprehensive background in business and human resources, I have dedicated my career to driving organizational success through strategic leadership, innovative thinking, and a people-centric approach. With over two decades of experience across diverse industries, my expertise spans from corporate governance and operational excellence to talent management and organizational development. I am passionate about fostering a positive corporate culture, optimizing business processes, and ensuring that human capital is leveraged to its fullest potential.
+        Coaching 
+        Engagements that focus on your growth, transitions or hurdles in career.  Utilizing a reflective method that builds trust through a partnership focused on your success. 
+
+        3-, 6- or 12-month coaching packages to address your needs 
       </p>
 
-      <p>
-      Looking ahead, I am committed to continuing my journey of strategic leadership and human capital development. I envision leading organizations that are agile, resilient, and capable of thriving in a competitive landscape. My goal is to drive sustainable growth by leveraging technology, fostering innovation, and nurturing a culture of continuous improvement.
+      <p className="mb-3">
+        Consulting: HR STRATEGY, CULTURE, ENGAGEMENT 
+        Culture strategy and development of programmatic solutions to strengthen your workplace 
 
-      In a world where the only constant is change, I believe that organizations must be adaptable and forward-thinking. By integrating business acumen with a deep understanding of human dynamics, I aim to create environments where both businesses and individuals can flourish. My journey is guided by a passion for excellence, a commitment to ethical leadership, and a dedication to making a positive impact on the organizations I serve.
+        Leadership program design to develop your mid-level and senior leaders that enable high organizational performance 
+
+        Facilitation of people strategies that support business growth or transformation. 
+      </p>
+      
+      <p>
+        Fractional HR LEADER
+        Able to lead the HR function and teams in a transition era or leadership disruption.   I have served as leader of large and small HR teams across tech and service organizations, in local and global organizations.  
+
+        HR Process Automation
+        Compensation
+        HR Operations
+        Recruitment Strategies
+        Diversity Strategies 
       </p>
     </motion.section>
   );

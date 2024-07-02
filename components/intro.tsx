@@ -4,6 +4,8 @@
 import Image from 'next/image'
 import React from 'react'
 import profilePic from '@/public/intro-profile-pic.jpg'
+import elsaIntroPic from '@/public/elsaIntroPic.jpg';
+import logo from '@/public/pivotLogo1.png';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
@@ -20,16 +22,29 @@ export default function Intro() {
     <section className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]" ref={ref}
     id="home">
       <div className='flex items-center justify-center'>
-        <div className=''>
-          <Image 
-            src={profilePic} 
-            alt='Elsa Profile Picture' 
-            width="768"
-            height="768"
-            quality="95"
-            priority={true}
-            className="h-96 w-96 rounded object-cover border-[0.35rem] border-white shadow-xl"
-          />
+      <div className='flex flex-col items-center gap-8 sm:flex-row'>
+          <div className=''>
+            <Image
+              src={logo} // Add the logo
+              alt='Logo'
+              width="768"
+              height="768"
+              quality="95"
+              priority={true}
+              className="object-cover h-auto w-96"
+            />
+          </div>
+          <div className=''>
+            <Image
+              src={elsaIntroPic}
+              alt='Elsa Profile Picture'
+              width="768"
+              height="768"
+              quality="95"
+              priority={true}
+              className="h-auto w-96 rounded object-cover border-[0.35rem] border-white shadow-xl"
+            />
+          </div>
         </div>
       </div>
 
@@ -38,7 +53,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        As Chief Officer, I'm dedicated to leading my team with vision and integrity. My mission is to drive innovation and deliver exceptional solutions that empower my clients. Welcome to my journey!
+        Senior executive with the proven ability to execute on solutions to drive business results. Successful in C-Suite roles with increasing levels of complexity and in diverse industries. Experience with PE and Non-profit Boards. Ability to simplify the complex. Strong competence in agility; ability to roll up sleeves to tackle challenges with small cross-functional teams.
       </motion.h1>
 
       <motion.div
